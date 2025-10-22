@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import axios from 'axios'
 import { useNavigate, Link } from 'react-router-dom'
 
-const API = import.meta.env.VITE_API_URL || 'http://localhost:3001'
+const API = VITE_API_URL
 
 export default function Register(){
   const [username,setUsername]=useState('')
